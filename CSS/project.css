@@ -1,0 +1,171 @@
+/* Estilos existentes mantidos */
+body, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  height: 100%;
+}
+
+.background {
+  background: url('abstract-techno-background-with-connecting-lines.jpg') no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center; 
+  margin: 0;
+}
+
+.logo {
+  margin-bottom: 15px; 
+  text-align: center;
+}
+
+.logo img {
+  width: 130px; /* Reduzido proporcionalmente */
+}
+
+h2 {
+  font-size: 20px; /* Diminuído */
+  margin-bottom: 18px;
+}
+
+.login-container {
+  background-color: #ddeeff;
+  padding: 18px; /* Reduzido */
+  border-radius: 10px;
+  width: 320px; /* Ligeiramente menor */
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.login-form {
+  text-align: left;
+}
+
+.login-form label {
+  font-size: 13px; /* Diminuído */
+  margin-bottom: 5px;
+  display: block;
+}
+
+.login-form input {
+  width: 90%; /* Ligeiramente menor */
+  padding: 8px; /* Reduzido */
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #a9d4ff;
+  font-size: 14px; /* Reduzido */
+}
+
+.forgot-password {
+  text-align: right;
+}
+
+.forgot-password a {
+  color: #007bff;
+  text-decoration: none;
+  font-size: 11px; /* Diminuído */
+}
+
+.btn-primary {
+  width: 100%;
+  background: #0033cc;
+  color: #fff;
+  padding: 9px; /* Reduzido */
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  margin-bottom: 12px;
+  font-size: 14px; /* Reduzido */
+}
+
+.btn-google {
+  width: 100%;
+  background: #f5f5f5;
+  padding: 9px; /* Reduzido */
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px; /* Reduzido */
+}
+
+.btn-google img {
+  width: 18px; /* Reduzido */
+  margin-right: 8px;
+}
+
+.divider {
+  margin: 3px 0;
+  color: #000000;
+}
+
+.register {
+  font-size: 13px; /* Reduzido */
+}
+
+.register a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .login-container {
+    width: 280px; /* Reduzido ainda mais */
+    padding: 15px; /* Ajuste de espaçamento */
+  }
+
+  .logo img {
+    width: 110px; /* Ajustado proporcionalmente */
+  }
+
+  h2 {
+    font-size: 18px; /* Ajustado */
+  }
+
+  .login-form input {
+    font-size: 12px; /* Diminuído */
+  }
+
+  .btn-primary, .btn-google {
+    font-size: 12px; /* Ajustado */
+  }
+
+  .register {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .login-container {
+    width: 260px; /* Menor para telas pequenas */
+    padding: 12px;
+  }
+
+  .logo img {
+    width: 90px; /* Ajustado proporcionalmente */
+  }
+
+  h2 {
+    font-size: 16px;
+  }
+
+  .login-form input {
+    font-size: 11px; /* Mais compacto */
+  }
+
+  .btn-primary, .btn-google {
+    font-size: 11px;
+  }
+
+  .register {
+    font-size: 11px;
+  }
+}

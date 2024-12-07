@@ -1,0 +1,46 @@
+/* Estilos personalizados para Fluentify AI */
+body {
+  background-color: #f0f9ff; /* Ajuste de fundo personalizado */
+}
+
+/* Personalizar o botão para um estilo específico */
+button {
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #1D4ED8; /* Hover com uma cor azul mais forte */
+}
+
+/* Personalização para o layout da sidebar */
+.sidebar-logo {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.sidebar-nav-item:hover {
+  background-color: #2D3748; /* Alterar a cor do item no hover */
+}
+
+.w-13 {
+  width: 80px;
+}
+
+.h-13 {
+  height: 80px;
+}
+
+
+.header-top {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  background: url('abstract-techno-background-with-connecting-lines.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: #fff;
+  padding: 30px 40px;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
